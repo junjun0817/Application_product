@@ -4,17 +4,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="text.css">
-	<title>Document</title>
+	<title>memo</title>
 </head>
 <body>
-	<div id="app">
-		<p class="d-title">
-			{{ appName }}
-		</p>
-		<p class="d-line-1">
-			{{ clock }}
-		</p>
-	</div>
+	<div class="container">
+        <h2>MEMOしよう</h2>
+        <div id="app">
+	<!--ホーム-->
+			<div class="form-memo">
+				<input placeholder="メモしたいことを入力" v-model="email">
+				<button disabled>MEMO</button>
+			</div>
+        </div>
+    </div>	
 	<!-- JavaScript -->
 	<script src="https://unpkg.com/vue@next" defer></script>
 	<script src="main.js" defer></script>
