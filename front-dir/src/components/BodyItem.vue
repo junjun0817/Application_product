@@ -17,6 +17,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   methods: {
     home(){
@@ -32,7 +34,7 @@ export default {
   color: #18913c;
   font-size: 50px;
   text-align: center;
-  padding-top: 225px;
+  padding-top: 250px;
 }
 
 .form-memo {

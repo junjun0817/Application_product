@@ -14,7 +14,8 @@
 
 <style lang="scss">
 .offer-name{
-	font-size: 20px;
+	font-size: 40px;
+	height: 300px;
 	color: aliceblue;
 	display: flex;
 	justify-content: center;

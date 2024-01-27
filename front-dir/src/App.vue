@@ -8,12 +8,14 @@ import FooterItem from './components/FooterItem.vue'
 <template>
   <div class="home">
   <HeaderItem/>
-  <RouterView />
+  <RouterView/>
   <FooterItem/>
 </div>
 </template>
 
 <style lang="scss">
+@import './reset.css';
+
 .home {
   background-color: rgb(62, 239, 115);
   // height: 1200px;
